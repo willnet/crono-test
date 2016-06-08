@@ -14,3 +14,4 @@
 # Crono.perform(TestJob).every 2.days, at: '15:30'
 #
 Crono.perform(HelloJob).every 10.seconds
+Crono.perform(FailJob).every 20.seconds
